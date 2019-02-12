@@ -20,7 +20,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/stapelberg/scan2drive/internal/pdf"
+	"github.com/sdier/scan2drive/internal/pdf"
 )
 
 func writePDF(w io.Writer, compressed []*bytes.Buffer) error {

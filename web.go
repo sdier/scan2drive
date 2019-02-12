@@ -33,9 +33,9 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/gorilla/sessions"
-	"github.com/stapelberg/scan2drive/internal/bundled"
-	"github.com/stapelberg/scan2drive/proto"
-	"github.com/stapelberg/scan2drive/templates"
+	"github.com/sdier/scan2drive/internal/bundled"
+	"github.com/sdier/scan2drive/proto"
+	"github.com/sdier/scan2drive/templates"
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"

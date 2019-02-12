@@ -32,12 +32,12 @@ import (
 	"golang.org/x/net/trace"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/stapelberg/scan2drive/internal/atomic/write"
-	"github.com/stapelberg/scan2drive/internal/fss500"
-	"github.com/stapelberg/scan2drive/internal/fss500/usb"
-	"github.com/stapelberg/scan2drive/internal/g3"
-	"github.com/stapelberg/scan2drive/internal/neonjpeg"
-	"github.com/stapelberg/scan2drive/proto"
+	"github.com/sdier/scan2drive/internal/atomic/write"
+	"github.com/sdier/scan2drive/internal/fss500"
+	"github.com/sdier/scan2drive/internal/fss500/usb"
+	"github.com/sdier/scan2drive/internal/g3"
+	"github.com/sdier/scan2drive/internal/neonjpeg"
+	"github.com/sdier/scan2drive/proto"
 )
 
 func scan(tr trace.Trace, dev io.ReadWriter) error {

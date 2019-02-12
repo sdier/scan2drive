@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/stapelberg/scan2drive/templates"
+	"github.com/sdier/scan2drive/templates"
 )
 
 type setupMux struct {

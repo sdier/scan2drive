@@ -19,8 +19,8 @@ import (
 	"image"
 	"image/png"
 
-	"github.com/stapelberg/scan2drive/internal/g3"
-	"github.com/stapelberg/scan2drive/proto"
+	"github.com/sdier/scan2drive/internal/g3"
+	"github.com/sdier/scan2drive/proto"
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
 )

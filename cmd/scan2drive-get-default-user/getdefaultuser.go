@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/stapelberg/scan2drive/proto"
+	"github.com/sdier/scan2drive/proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

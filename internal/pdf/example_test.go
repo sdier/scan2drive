@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/stapelberg/scan2drive/internal/pdf"
+	"github.com/sdier/scan2drive/internal/pdf"
 )
 
 func Example() {
